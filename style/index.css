@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tasty_header{
+    background-image: url(../assets/images/bg_1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+#logo{
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 6px;
+
+}
+#tasty_header nav{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    
+    display: flex;
+    column-gap: 50px;
+}
+nav li{
+    list-style-type: none;
+}
+#tasty_header a{
+    color: white;
+    text-decoration: none;
+}
